@@ -40,7 +40,6 @@ while loop:
           print("\033[37m[\033[31m~\033[37m] To Start Metasploit Type 'msfconsole' In Terminal")
           time.sleep(5)
           os.system("clear")
-          Menu()
     elif what == "2":
           os.system("clear")
           print("""\033[31m
@@ -56,7 +55,6 @@ while loop:
           print("\033[37m[\033[31m~\033[37m] To Start Nmap Type 'nmap' In Terminal")
           time.sleep(5)
           os.system("clear")
-          Menu()
     elif what == "3":
           os.system("clear")
           print("""\033[31m
@@ -72,7 +70,6 @@ while loop:
           print("\033[37m[\033[31m~\033[37m] To Start Websploit Type 'websploit' In Terminal")
           time.sleep(5)
           os.system("clear")
-          Menu()
     elif what == "4":
           os.system("clear")
           print("""\033[31m
@@ -88,7 +85,6 @@ while loop:
           print("\033[37m[\033[31m~\033[37m] To Start Hydra Type 'hydra' In Terminal")
           time.sleep(5)
           os.system("clear")
-          Menu()
     elif what == "5":
           os.system("clear")
           print("""\033[31m
@@ -104,4 +100,4 @@ while loop:
           print("\033[37m[\033[31m~\033[37m] To Start Sqlmap Type 'sqlmap' In Terminal")
           time.sleep(5)
           os.system("clear")
-          Menu()
+          
