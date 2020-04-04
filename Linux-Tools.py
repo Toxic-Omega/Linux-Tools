@@ -2,16 +2,16 @@ import os
 import time
 
 def Menu():
-    print("""
+    print("""\033[31m
 ╦  ┬┌┐┌┬ ┬─┐ ┬       ╔╦╗┌─┐┌─┐┬  ┌─┐
 ║  │││││ │┌┴┬┘  ───   ║ │ ││ ││  └─┐
 ╩═╝┴┘└┘└─┘┴ └─        ╩ └─┘└─┘┴─┘└─┘
-      Coded By Toxic - Omega
+      \033[92mCoded By Toxic - Omega
 
-[1] Install Metasploit
-[2] Install
-[3] Install
-[x] Exit
+\033[37m[\033[31m1\033[37m] Install Metasploit
+\033[37m[\033[31m2\033[37m] Install
+\033[37m[\033[31m3\033[37m] Install
+\033[37m[\033[31mx\033[37m] Exit
 """)
 loop = True
 while loop:
@@ -35,4 +35,6 @@ while loop:
 [~] Installing...
 """)
           os.system("sudo apt-get install metasploit-framework postgresql")
+          print(" ")
+          print("[~] To Start Metasploit Type metasplot In Terminal")
           Menu()
